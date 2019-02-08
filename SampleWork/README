@@ -1,0 +1,71 @@
+************************************
+
+Hello!
+Thanks for reviewing my work!
+I used Java and tackled problem #2
+
+************************************
+RUNNING THE APPLICATION
+************************************
+
+You can run this as any other java application if you create an executable.
+The description told me not to include an executable, so I assume you will be
+running this application in an IDE. 
+You can edit any of the four input files.
+The application will prompt for one of the four using their file names.
+Files 1-3 are as given in the description.
+File 4 is to show unknown items and multiples of an item.
+
+************************************
+ASSUMPTIONS
+************************************
+
+Format for the file per line:
+q item at price
+where
+q = an int
+item = any string including spaces
+at = the specific string "at"
+price = any float/double in the form d.dd, meaning it has exactly 2 decimals.
+
+************************************
+NOTABLE POINTS
+************************************
+
+The included items, i.e "chocolate" and "perfume" are baked into the code to
+speed up the process.
+
+Otherwise, non-recognized items will prompt the user i.e input4.txt
+
+A name of an imported item must include the substring "import" somewhere for it
+to be considered imported by the app.
+
+************************************
+ORGANIZATION AND STRUCTURE OF APPLICATION
+************************************
+
+The application consists of 5 classes, and I divide responsibility as such:
+
+* Calculator deals with all mathematical methods and the tax.
+
+* Driver contains the main, instantiates most objects, and would be the facade.
+
+* FileReadWriter deals with importing and interpretting the input files, including
+turn them into items.
+
+* Item is the only representative class. A traditional java object.
+
+* Printer is the class that deals with output and String manipulation.
+
+
+
+
+
+
+
+
+
+
+
+
+
