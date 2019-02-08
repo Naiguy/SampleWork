@@ -1,5 +1,5 @@
 # SampleWork
-A toy application designed satisfy a specific set of requirements for a receipt processing application.
+A toy application designed to satisfy a specific set of requirements for a receipt processing application.
 
 The application primarily processes sales tax.
 
